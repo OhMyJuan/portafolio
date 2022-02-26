@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.navbarOn{
+  width: 80vw;
+  height: 100vh;
+  background-color: #3f3f3f;
+
+  position: fixed;
+  
+  left: 0;
+  
+  transition: linear 300ms;
+
+  z-index: 1000;
+}
+
+.navbarOff {
+  width: 80vw;
+  height: 100vh;
+  background-color: #3f3f3f;
+  
+  position: fixed;
+  left: -100%;
+
+  transition: linear 300ms;
+  z-index: 1000;
+}
+
+ul{
+  list-style: none;
+}
+
+.navbar__header{
+  padding: 2em 1em;
+  color: #fff;
+}
+
+
+
+.navbar__link{
+  display: block;
+  width: 100%;
+  padding: 2em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar__link:hover{
+  background-color: #35363B;
+  color: #77C7BB;
+}
+
+.navbar__closeButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.5em;
+  height: 2.5em;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #35363B;
+
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.navbar__closeButton:hover {
+  background-color: #ccc;
+}
+
+.navbar__goUpButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.5em;
+  height: 2.5em;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #35363B;
+
+  position: absolute;
+  bottom: 6em;
+  left: 2em;
+}
+
+.navbar__goUpButton:hover {
+  background-color: #ccc;
+}
+
+.navbar__openButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.5em;
+  height: 2.5em;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #35363B;
+  box-shadow: #35363B 0 0 3px 1px;
+
+  position: fixed;
+  top: 2em;
+  left: 2em;
+
+  z-index: 1000;
+}
+
+@media (min-width:630px){
+  .navbar__closeButton, .navbar__openButton{
+    display: none;
+  }
+
+  .navbarOff{
+    position: fixed;
+    top: 2vh;
+    left: 5vw;
+    height: max-content;
+
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    padding: 0.3em 2em;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
+  }
+
+  .navbar__header {
+    width: min-content;
+    min-height: 50px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .navbar__header h1{
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .navbar__link{
+    padding: 0;
+  }
+
+  .navbar__link:hover{
+    color: #77C7BB;
+    background: none;
+  }
+
+  ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2em;
+    width: 80%;
+  }
+
+  .navbar__goUpButton{
+    position: fixed;
+
+    transform: scale(1.5);
+    box-shadow: #00000077 0 1px 3px 2px;
+  }
+}

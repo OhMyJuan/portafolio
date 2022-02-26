@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.projectCard{
+  width: min-content;
+  background: #77c7bbab;
+  box-shadow: #222 0 0 3px 1px;
+  overflow: hidden;
+}
+
+.projectCard__textContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+}
+
+.projectCard__title{
+  font-size: 24px;
+  color: #e5e6eb;
+}
+
+.projectCard__description{
+  color: #e5e6eb;
+  text-align: center;
+}
+
+
+
+.projectCard__codeButton{
+  padding: 0.5em 1em;
+  background-color: rgba(53, 53, 53, 0.3);
+  border: 2px solid #e5e6eb;
+  color: #e5e6eb;
+  border-radius: 10px;
+}
+
+.projectCard__codeButton:hover{
+  background-color: rgba(53, 53, 53, 0.7);
+}
+
+@media (min-width:630px){
+  .projectCard {
+    display: flex;
+    width: fit-content;
+    max-width: 50vw;
+    height: 9.95em;
+  }
+
+  .projectCard__imgContainer{
+    min-width: 25vw;
+    height: fit-content;
+  }
+
+  img{
+    width: 100%;
+  }
+}
