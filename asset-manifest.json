@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.30a1fce4.css",
-    "main.js": "/portafolio/static/js/main.0683d6b5.js",
+    "main.css": "/portafolio/static/css/main.26a44309.css",
+    "main.js": "/portafolio/static/js/main.f2cc488d.js",
     "static/media/home-image-desktop.png": "/portafolio/static/media/home-image-desktop.b2bfedb24b66f8ba43e9.png",
     "static/media/personal-picture-desktop.png": "/portafolio/static/media/personal-picture-desktop.0cb3ff2b04bfea24d9ad.png",
     "static/media/home-image-mobile.png": "/portafolio/static/media/home-image-mobile.0dd3e57683750004cae0.png",
     "static/media/personal-picture-mobile.png": "/portafolio/static/media/personal-picture-mobile.43871152c6b6bbd5251f.png",
-    "static/media/CV-JuanJurado.pdf": "/portafolio/static/media/CV-JuanJurado.7a79e2a492055871c15d.pdf",
+    "static/media/CV-JuanJurado.pdf": "/portafolio/static/media/CV-JuanJurado.810e35a2ac83c2c48902.pdf",
     "index.html": "/portafolio/index.html",
-    "main.30a1fce4.css.map": "/portafolio/static/css/main.30a1fce4.css.map",
-    "main.0683d6b5.js.map": "/portafolio/static/js/main.0683d6b5.js.map"
+    "main.26a44309.css.map": "/portafolio/static/css/main.26a44309.css.map",
+    "main.f2cc488d.js.map": "/portafolio/static/js/main.f2cc488d.js.map"
   },
   "entrypoints": [
-    "static/css/main.30a1fce4.css",
-    "static/js/main.0683d6b5.js"
+    "static/css/main.26a44309.css",
+    "static/js/main.f2cc488d.js"
   ]
 }
