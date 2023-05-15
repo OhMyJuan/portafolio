@@ -20,7 +20,7 @@ function About() {
           </p>
         </div>
         <p className={styles.about__legend}>
-          Soy <strong className={styles.strong}>licenciado en Investigación Criminal y Seguridad</strong> con experiencia en el área de investigación judicial. Me encanta área de la informática, tanto que actualmente estoy estudiando mi una segunda carrera en <strong className={styles.strong}>ciberseguridad</strong>.<br/>Tengo conocimientos en proramación web <strong className={styles.strong}>frontend</strong>, un poco de <strong className={styles.strong}>backend</strong> y actualmente estoy prácticando mis habilidades en <strong className={styles.strong}>bash scripting</strong>.<br/>Siempre estoy en busca de nuevos retos, me gusta ponerme a prueba y demostrar mis conocimientos.
+          Soy <strong className={styles.strong}>Licenciado en Investigación Criminal y Seguridad</strong> con experiencia en el área de investigación judicial.<br/>Me encanta el área de la informática, tanto que actualmente estoy estudiando una segunda carrera en <strong className={styles.strong}>ciberseguridad</strong>.<br/>Tengo conocimientos en proramación web <strong className={styles.strong}>frontend</strong>, un poco de <strong className={styles.strong}>backend</strong> y actualmente estoy prácticando mis habilidades en <strong className={styles.strong}>bash scripting</strong>.<br/>Siempre estoy en busca de nuevos retos, me gusta ponerme a prueba y demostrar mis conocimientos.
         </p>
 
         <div className={styles.about__curriculum}>
