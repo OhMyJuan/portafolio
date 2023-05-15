@@ -7,8 +7,7 @@
 }
 
 .footer{
-  background: var(--dark-bg);
-  box-shadow: #00000077 0 0 20px 3px;
+  background: var(--soft-bg);
 
   display: flex;
   height: 2em;
@@ -16,4 +15,8 @@
   justify-content: center;
 
   color: var(--gray);
+}
+
+.footer__text {
+  font-size: 14px;
 }

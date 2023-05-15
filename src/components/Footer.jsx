@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div>
-        <p>Copyright &#169; Juan Jurado 2022</p>
+        <p className={styles.footer__text}>Juan Jurado | 2023</p>
       </div>
     </footer>
   )

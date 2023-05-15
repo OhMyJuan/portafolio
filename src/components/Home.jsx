@@ -1,4 +1,5 @@
 import React from "react";
+import SocialButton from "./SocialButton";
 import styles from "./styles/Home.module.css";
 
 function Home() {
@@ -12,23 +13,24 @@ function Home() {
           <p>Programador Autodidacta</p>
 
           <div className={styles.home__buttonContainer}>
-            <a href="https://github.com/JuanC-Jurado" target="blank" title='Github'>
-              <div className={styles.home__socialButton}>
-                <i className="fa-brands fa-github"></i>
-              </div>
-            </a>
 
-            <a href="https://codepen.io/juanc-jurado" target="blank" title='Codepen'>
-              <div className={styles.home__socialButton}>
-                <i class="fa-brands fa-codepen"></i>
-              </div>
-            </a>
+            <SocialButton
+              name="Github"
+              link="https://github.com/JuanC-Jurado"
+              icon="fa-brands fa-github"
+            />
 
-            <a href="https://www.instagram.com/x.juanj_02/" target="blank" title='Instagram'>
-              <div className={styles.home__socialButton}>
-                <i className="fa-brands fa-instagram"></i>
-              </div>
-            </a>
+            <SocialButton
+              name="Codepen"
+              link="https://codepen.io/juanc-jurado"
+              icon="fa-brands fa-codepen"
+            />
+
+            <SocialButton
+              name="Instagram"
+              link="https://www.instagram.com/x.juanj_02"
+              icon="fa-brands fa-instagram"
+            />
           </div>
         </div>
       </div>

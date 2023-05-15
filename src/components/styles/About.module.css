@@ -41,6 +41,7 @@
 	left: 0;
 	right: 0;
 	background: var(--main-color);
+  opacity: 0.5;
   mix-blend-mode: multiply;
 
 }
