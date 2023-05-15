@@ -15,7 +15,7 @@ function Projects() {
           nombre="Fakescord"
           imagen={fakescordImg}
           descripcion="Es una aplicación web de envío de mensajes por canales"
-          enlaceCodigo="https://github.com/JuanC-Jurado/fakescord"
+          enlaceCodigo="https://github.com/OhMyJuan/fakescord"
           enlace="https://fakescord-fd551.web.app/"
         />
 

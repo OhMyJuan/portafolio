@@ -9,7 +9,7 @@ function ProjectCard({ imagen, nombre, descripcion, enlaceCodigo, enlace }) {
       </div>
 
       <div className={styles.projectCard__textContainer}>
-        <h4><a className={styles.projectCard__title} href={enlace}>{nombre}</a></h4>
+        <h4><a className={styles.projectCard__title} target="_blank" rel='noreferrer' href={enlace}>{nombre}</a></h4>
         <p className={styles.projectCard__description}>{descripcion}</p>
         <div className={styles.projectCard__codeButtonContainer}>
           <a href={enlaceCodigo} target='_blank' rel="noreferrer">

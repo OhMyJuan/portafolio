@@ -16,7 +16,7 @@ function Home() {
 
             <SocialButton
               name="Github"
-              link="https://github.com/JuanC-Jurado"
+              link="https://github.com/OhMyJuan"
               icon="fa-brands fa-github"
             />
 
@@ -28,7 +28,7 @@ function Home() {
 
             <SocialButton
               name="Instagram"
-              link="https://www.instagram.com/x.juanj_02"
+              link="https://instagram.com/x.juanj_02?igshid=ZGUzMzM3NWJiOQ=="
               icon="fa-brands fa-instagram"
             />
           </div>
