@@ -9,22 +9,22 @@ function Home() {
           <h2>
             ¡Hola, soy <span className={styles.home__innerName}>Juan</span>!
           </h2>
-          <p>Desarrollador Web</p>
+          <p>Programador Autodidacta</p>
 
           <div className={styles.home__buttonContainer}>
-            <a href="https://github.com/JuanC-Jurado"  title='Github'>
+            <a href="https://github.com/JuanC-Jurado" target="blank" title='Github'>
               <div className={styles.home__socialButton}>
                 <i className="fa-brands fa-github"></i>
               </div>
             </a>
-            
-            <a href="https://codepen.io/juanc-jurado" title='Codepen'>
+
+            <a href="https://codepen.io/juanc-jurado" target="blank" title='Codepen'>
               <div className={styles.home__socialButton}>
                 <i class="fa-brands fa-codepen"></i>
               </div>
             </a>
 
-            <a href="https://www.instagram.com/x.juanj_02/" title='Instagram'>
+            <a href="https://www.instagram.com/x.juanj_02/" target="blank" title='Instagram'>
               <div className={styles.home__socialButton}>
                 <i className="fa-brands fa-instagram"></i>
               </div>
